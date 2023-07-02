@@ -1,0 +1,7 @@
+.tippy {
+    background-color: rgb(224, 218, 218);
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 3px;
+    animation-delay: 2s;
+}
