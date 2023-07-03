@@ -97,6 +97,23 @@
 	padding-top: 30px;
 }
 
+@media (min-width: 500px) and (max-width: 1024px) {
+	.homepage-first-area-right-side {
+		order: 1;
+	}
+}
+@media (max-width: 500px) {
+	.homepage-first-area-right-side {
+		width: 100%;
+		order: 1;
+	}
+}
+@media (min-width: 1025px) {
+	.homepage-first-area-right-side {
+		width: 100%;
+		order: 1;
+	}
+}
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
@@ -122,10 +139,10 @@
 		order: 3;
 	}
 
-	.homepage-first-area-right-side {
+	/* .homepage-first-area-right-side {
 		width: 100%;
 		order: 1;
-	}
+	} */
 
 	.homepage-image-container {
 		padding-top: 50px;
